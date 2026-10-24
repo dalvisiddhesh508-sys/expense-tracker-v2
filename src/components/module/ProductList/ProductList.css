@@ -1,0 +1,23 @@
+.ProductList{
+  display: flex;
+}
+.ProductList .leftSide{
+  flex-grow: 1;
+}
+.ProductList .product-list-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.ProductList .product-card{
+  border:1px solid rgb(104, 103, 103);
+  width: 200px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProductList .product-card img{
+
+}
